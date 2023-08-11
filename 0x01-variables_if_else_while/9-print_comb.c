@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-    int nbr ;
+    int nbr;
 
 
-	for (nbr = 0; nbr < 10; nbr++)
+	for (nbr = 0; nbr <= 9; nbr++)
 	{
 		putchar(nbr);
         if (nbr != 9) {
