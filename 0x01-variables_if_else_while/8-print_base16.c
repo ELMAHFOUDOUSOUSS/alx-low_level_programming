@@ -8,7 +8,7 @@ int main(void)
     int nbr ;
 	char alpha;
 
-	for (nbr = 0; nbr < 10; nbr++)
+	for (nbr = 48; nbr <= 57; nbr++)
 	{
 		putchar(nbr);
 	}
@@ -16,7 +16,6 @@ int main(void)
 	{
 		putchar(alpha);
 	}
-	
 	putchar('\n');
 	return (0);
 }
