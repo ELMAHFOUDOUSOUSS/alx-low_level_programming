@@ -9,16 +9,16 @@ int main(void)
 
 	for (n = 48; n <=55; n++)
 	{
-		for (m = 49; m <= 56; m++)
+		for (ma = 49; ma <= 56; ma++)
 		{
 			for (j = 50; j <= 57; j++)
 			{
-				if (j > m && m > n)
+				if (j > ma && ma > n)
 				{
 					putchar(n);
-					putchar(m);
+					putchar(ma);
 					putchar(j);
-					if (n != 55 || m != 56)
+					if (n != 55 || ma != 56)
 					{
 						putchar(',');
 						putchar(' ');
