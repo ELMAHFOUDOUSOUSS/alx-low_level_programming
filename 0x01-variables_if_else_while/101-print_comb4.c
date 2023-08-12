@@ -7,7 +7,7 @@ int main(void)
 {
 	int n, ma, j;
 
-	for (n = 48; n <=55; n++)
+	for (n = 48; n <= 55; n++)
 	{
 		for (ma = 49; ma <= 56; ma++)
 		{
